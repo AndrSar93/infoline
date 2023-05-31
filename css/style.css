@@ -1,7 +1,32 @@
-header {
-    background-color: #404F59;
+* {
+    box-sizing: border-box;
 }
 
-.nav__link {
-    color: red;
+html,
+body {
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
 }
