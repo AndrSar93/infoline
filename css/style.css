@@ -48,12 +48,12 @@ a {
 
 .wrapper {
     min-height: 100%;
+    background-color: bisque;
 }
 
 .container {
     max-width: 1200px;
     padding: 0px 10px;
-    background-color: darkred;
     margin: 0px auto;
 }
 
@@ -115,3 +115,71 @@ a {
 .header__tel span {
     color: #FFFFFF;
 }
+
+.hero {
+    min-height: 750px;
+    height: 1px;
+    background-color: #2C3B45;
+
+}
+
+.hero__container {
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.hero__content {}
+
+.location {}
+
+.hero__location {
+    margin-bottom: 35px;
+}
+
+.location__icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.location__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 488px;
+}
+
+.hero__title {
+    margin-bottom: 47px;
+}
+
+.btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 14px 35px;
+    background-color: #1E92E7;
+
+}
+
+.btn_type_click {}
+
+.hero__btn {}
+
+.hero__img {}
