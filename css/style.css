@@ -150,6 +150,7 @@ a {
     height: 1px;
     background-color: #2C3B45;
     padding-top: 132px;
+    border-bottom: 50px solid #1E92E7;
 }
 
 .hero__container {
@@ -170,6 +171,8 @@ a {
 
 .hero__location {
     margin-bottom: 35px;
+    display: flex;
+    align-items: center;
 }
 
 .location__icon {
@@ -208,16 +211,19 @@ a {
     font-size: 18px;
     line-height: 120%;
     text-transform: uppercase;
-    color: #FFFFFF;
     border-radius: 5px;
-    padding: 14px 35px;
-    background-color: #1E92E7;
+    min-width: 137px;
+
 
 }
 
-.btn_type_click {}
 
-.hero__btn {}
+.btn_theme_blue {
+    color: #FFFFFF;
+    padding: 14px 36px;
+    background-color: #1E92E7;
+}
+
 
 .hero__img-wrap {
     position: relative;
@@ -229,4 +235,222 @@ a {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.rent {
+    padding-top: 120px;
+}
+
+.rent__container {
+    padding-bottom: 50px;
+}
+
+.section-title {}
+
+.rent__title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+
+}
+
+.rent__btn {}
+
+.rent__btns-list {
+    display: flex;
+}
+
+.rent__btns-items {
+    padding-right: 10px;
+}
+
+.btn {}
+
+.btn_theme_transparent {
+    border: 1px solid #1E92E7;
+    padding: 9px 20px;
+
+}
+
+.btn_theme_transparent:active {
+    background: #1E92E7;
+    color: #FFFFFF;
+}
+
+
+
+.offers-slider {
+    position: relative;
+}
+
+.offer-slider__container {
+    display: flex;
+}
+
+.control {
+    position: absolute;
+}
+
+.control_prev {}
+
+.offers-list {
+    display: flex;
+}
+
+.offer {
+    box-shadow: 0px 2px 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+
+.offer:last-child {
+    margin-right: 0px;
+}
+
+.offer__img-wrap {}
+
+.offer__img {
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 33px;
+}
+
+.offer__info {
+    padding: 0px 40px 40px 40px;
+}
+
+.offer__info-list {}
+
+.offer__info-item {
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 300px; */
+    padding-bottom: 20px;
+}
+
+.offer__info-desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.offer__info-desc::before {
+    border-bottom: 1px dashed #E6E6E6;
+    width: 201px;
+
+}
+
+.offer__info-value {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.offer__info-value_true {
+    color: #61CD66;
+}
+
+.btn_theme_blue {}
+
+.offer__btn {
+    padding: 14px 68px 14px 69px;
+
+
+}
+
+.control_next {}
+
+/* ФОРМА */
+
+.contacts {
+    margin-top: 20px;
+    width: 480px;
+    height: 683px;
+    border: 1px solid grey;
+}
+
+.closed {
+    background-color: #2C3B45;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.closed__img {
+    width: 30px;
+    height: 30px;
+}
+
+.contacts__info {}
+
+.contacts__title-wrap {}
+
+.contacts__title {
+    padding: 45px 49px 45px 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color: #1E91E6;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+}
+
+.contacts__data {
+    padding-left: 61px;
+    padding-right: 59px;
+}
+
+.contacts__form {}
+
+.contacts__form-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.contacts__input {
+
+    width: 358px;
+    height: 50px;
+    border: 1px solid #BFBFBF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contacts__input:last-child {
+    margin-bottom: 40px;
+}
+
+.contacts__request {
+    padding: 14px 98px 14px 96px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #1E92E7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contacts__agree {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9C9C9C;
 }
