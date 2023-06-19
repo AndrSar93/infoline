@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --container-width: 1260px;
+}
+
 /* 
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
@@ -51,10 +55,11 @@ a {
 .wrapper {
     min-height: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .container {
-    max-width: 1260px;
+    max-width: var(--container-width);
     padding: 0px 40px;
     margin: 0px auto;
 }
@@ -70,30 +75,4 @@ a {
     min-width: 137px;
 
 
-}
-
-/* СТИЛИ КНОПОК */
-
-.btn_theme_blue {
-    color: #FFFFFF;
-    background-color: #1E92E7;
-}
-
-.btn_theme_transparent {
-    border-color: transparent;
-    border: 1px solid #1E92E7;
-    color: #000000;
-}
-
-.btn_size_big {
-    padding: 14px 20px;
-}
-
-.btn_size_small {
-    padding: 9px 20px;
-}
-
-.btn.active {
-    background-color: #1E92E7;
-    color: #FFFFFF;
 }

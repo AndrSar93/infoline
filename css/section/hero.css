@@ -1,6 +1,6 @@
 .hero {
-    min-height: 750px;
-    height: 1px;
+    background-image: url(../../img/decor.svg);
+    background-repeat: no-repeat;
     background-color: #2C3B45;
     padding-top: 132px;
     border-bottom: 50px solid #1E92E7;
@@ -16,15 +16,22 @@
 }
 
 .hero__content,
-.hero__img-wrap {
-    width: 50%;
-}
+.hero__img-wrap {}
+
 
 .hero__content {
-    margin-top: 92px;
+    /* Внутренний отступ */
+    padding-top: 7.8%;
+    flex-basis: 51%;
+    padding-right: 20px;
+    margin-bottom: 16.9%;
+
 }
 
-.location {}
+.location {
+    /* 39px / 63px */
+    margin-bottom: 6%;
+}
 
 .hero__location {
     margin-bottom: 35px;
@@ -58,7 +65,8 @@
 }
 
 .hero__title {
-    margin-bottom: 47px;
+    /* 47 / 602=7.8% */
+    margin-bottom: 7.8%;
 }
 
 .hero__btn {
@@ -68,7 +76,7 @@
 .hero__img-wrap {
     position: relative;
     border-radius: 5px 0px 0px 0px;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .hero__img-wrap::before {
