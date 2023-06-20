@@ -136,7 +136,9 @@
 
 
 
-.slider-pagination {}
+.slider-pagination {
+    margin-top: 50px;
+}
 
 .offers-slider__pagination {
     width: 100%;
